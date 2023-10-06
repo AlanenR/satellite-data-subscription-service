@@ -1,3 +1,39 @@
 #footer {
-    background-color: #063229;
+  background-color: #063229;
+}
+
+/* FORM
+**********/
+.form-container {
+  min-width: 450px;
+  max-width: 600px;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-label {
+  color: #767676;
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff;
+  top: -7px;
+  left: 10px;
+}
+
+.horizontal-separator {
+  width: 100%;
+  height: 12px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.text-separator {
+  font-size: 14px;
+  background-color: #fff;
+  padding: 0 10px;
 }
