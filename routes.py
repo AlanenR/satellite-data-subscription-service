@@ -15,3 +15,11 @@ def login():
 @app.route("/sign-up")
 def signUp():
     return render_template("sign-up.html")
+
+@app.route("/admin-panel")
+def adminPanel():
+    return render_template("admin-panel.html")
+
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")
