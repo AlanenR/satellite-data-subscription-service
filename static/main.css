@@ -9,7 +9,7 @@
 }
 
 #footer {
-  background-color: var(--accent-warm);
+  background-color: var(--secondary-dark);
   min-height: 200px;
 }
 
@@ -71,6 +71,21 @@
 
 /* LOGO
 **********/
+.logo-container {
+  /* Used in the footer */
+  position: relative;
+}
+
+.logo-text {
+  /* Used in the footer */
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main-light);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  top: 0;
+  left: 32px;
+}
 .satellite-logo {
   position: relative;
   display: flex;
