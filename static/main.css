@@ -31,7 +31,14 @@
   background-color: var(--accent-warm);
 }
 
-/* FORM
+/* TABLES
+**********/
+.fav-icn {
+  max-height: 18px;
+  width: auto;
+}
+
+/* FORMS
 **********/
 .form-container {
   max-width: 600px;
@@ -93,6 +100,11 @@
   width: 28px;
   height: 28px;
   margin-right: 22px;
+  transition:.5s ease-in-out;
+}
+
+.satellite-logo:hover {
+rotate: 1.75turn;
 }
 
 .satellite {
