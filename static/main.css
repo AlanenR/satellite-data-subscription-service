@@ -1,12 +1,43 @@
+:root {
+  --main-dark: #000000;
+  --main-light: #ffffff;
+  --secondary-dark: #023047;
+  --secondary-light: #8ecae6;
+  --accent-warm: #fb8500;
+  --accent-cold: #219ebc;
+  --accent-bright: #ffb703;
+}
+
 #footer {
-  background-color: #063229;
+  background-color: var(--accent-warm);
+  min-height: 200px;
+}
+
+.sub-heading {
+  font-size: 1.75rem;
+}
+
+/* BACKGROUNDS
+*****************/
+.bg-pale {
+  background-color: var(--secondary-light);
+}
+
+.bg-shadow {
+  background-color: var(--secondary-dark);
+}
+
+.bg-accent {
+  background-color: var(--accent-warm);
 }
 
 /* FORM
 **********/
 .form-container {
-  min-width: 450px;
   max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-field {
@@ -36,4 +67,39 @@
   font-size: 14px;
   background-color: #fff;
   padding: 0 10px;
+}
+
+/* LOGO
+**********/
+.satellite-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin-right: 22px;
+}
+
+.satellite {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #219ebc;
+  border-radius: 50%;
+  position: relative;
+}
+
+.antenna {
+  width: 20%;
+  height: 62%;
+  background: #fb8500;
+  position: absolute;
+  top: -80%;
+  left: 50%;
+  transform: rotate(-45deg);
+}
+
+/* BOOTSTRAP
+***************/
+.navbar {
+  background-color: var(--secondary-dark);
 }
