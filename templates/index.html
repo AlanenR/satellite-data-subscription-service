@@ -1,6 +1,108 @@
-{% extends "layout_default.html" %} 
-{% block title %}Satellite Subscription Service{% endblock %}
-{% block content %}
-<title>Satellite Subscription Service</title>
-<h1>Satellite Subscription Service</h1>
-{% endblock %}
+{% extends "layout_default.html" %} {% block title %}SatelLITE - Home{% endblock
+%} {% block content %}
+<div class="container-fluid bg-pale">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-12">
+        <title>Satellite Subscription Service</title>
+        <h1>Welcome to SatelLITE!</h1>
+        <span class="sub-heading">Your Gateway to Earth Observation Data</span>
+        <p>
+          At SatelLITE, we are dedicated to providing you with easy access to
+          vital satellite data for various applications, from wildfire
+          monitoring to flood monitoring and beyond. With our user-friendly
+          platform, you can explore and subscribe to satellite data that suits
+          your specific needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-12">
+        <h3>Features at Your Fingertips:</h3>
+        <ul>
+          <li>
+            <b
+              >Data Filtering: Customize your data selection by region, time,
+              and data type, ensuring you get the information that matters most
+              to you.</b
+            >
+          </li>
+          <li>
+            <b>Favorites List</b> Easily build and curate your list of favorite
+            satellite data records, making it even simpler to access the data
+            you rely on.
+          </li>
+        </ul>
+        <p>
+          Ready to get started? Dive into the world of satellite data by
+          exploring our <a href="/profile">subscription options</a> in the
+          settings tab. Tailor your experience, so you receive the insights you
+          need when you need them.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-accent">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-12">
+        <h3>Our Commitment:</h3>
+        <p>
+          We provide you with a robust database structure that ensures seamless
+          data management and access. Our user-friendly interface ensures you
+          have a hassle-free experience navigating through satellite data.
+        </p>
+        <h3>Stay Informed, Stay Prepared</h3>
+        <p>
+          Whether you're tracking environmental changes, planning research
+          expeditions, or monitoring critical events, the SatelLITE has you
+          covered. With our platform, you can stay informed, make informed
+          decisions, and contribute to a better, more informed world.
+        </p>
+        <p>
+          We're excited to have you on board, and we look forward to serving
+          your satellite data needs.
+        </p>
+
+        <p>
+          If you have any questions or need assistance, feel free to reach out
+          to our support team.
+        </p>
+        <p>Start Exploring Now!</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-pale">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <h3>Favorites Feed</h3>
+        <p>
+          Welcome to your Favorites Feed! This personalized feed allows you to
+          keep track of your most cherished satellite data records. Whether
+          you're monitoring specific regions, tracking your favorite satellites,
+          or staying updated on critical data categories, this feed keeps your
+          selected information at your fingertips.
+        </p>
+        <h3>Adding More Data to Your Feed</h3>
+        <p>
+          To enhance your Favorites Feed with more satellite data records,
+          simply visit your <a href="/data-feed">data feed</a> page. There, you
+          can explore all subscribed data. Customize your feed to align
+          perfectly with your interests and needs. Enjoy the convenience of
+          having your preferred satellite data readily available in your
+          Favorites Feed. Stay informed and make the most of your subscription
+          service!
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr />
+  {% include 'favorites.html'%} {% endblock %}
+</div>
