@@ -1,10 +1,32 @@
-{% extends "layout_default.html" %} {% block title %}Profile{% endblock %} {%
-block content %}
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h1>Personal settings</h1>
+{% extends "layout_default.html" %} {% block title %}SatelLITE - Profile{%
+endblock %} {% block content %}
+<div class="container-fluid bg-pale">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <h1>Personal settings</h1>
+        <p>
+          Welcome to your Personal Settings page, where you have the power to
+          tailor your satellite data experience to your preferences. Here, you
+          can make essential updates and manage your account effortlessly.
+        </p>
+        <h3>Manage Subscriptions</h3>
+        <p>
+          Choose from a range of subscription options to access the satellite
+          data that matters most to you. Select the data categories, regions,
+          and satellites that align with your needs. Stay in control of your
+          subscription choices and explore new data solutions.
+        </p>
+        <h3>Update Your Account</h3>
+        <p>
+          Keep your account information up to date. You can change your password
+          or update your email address to ensure you receive the latest updates
+          and notifications seamlessly. Personalize your satellite data
+          subscription experience at your convenience. Your settings, your
+          choices!
+        </p>
+      </div>
     </div>
   </div>
 </div>
-{% endblock %}
+{% include 'cards.html'%} {% endblock %}
