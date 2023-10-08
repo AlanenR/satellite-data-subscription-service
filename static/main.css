@@ -130,3 +130,8 @@ rotate: 1.75turn;
 .navbar {
   background-color: var(--secondary-dark);
 }
+
+.card-img-top {
+  max-height: 300px;
+  object-fit: cover;
+}
