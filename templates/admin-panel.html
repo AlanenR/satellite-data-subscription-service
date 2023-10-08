@@ -1,9 +1,160 @@
-{% extends "layout_default.html" %} {% block title %}Admin Panel{% endblock %}
-{% block content %}
-<div class="container">
+{% extends "layout_default.html" %} {% block title %}SatelLITE - Admin{%
+endblock %} {% block content %}
+<div class="container-fluid bg-pale">
+<div class="container pt-5 pb-5">
   <div class="row">
     <div class="col-12">
       <h1>Admin Panel</h1>
+      <p>
+        The Admin Panel is your control hub, where you can manage user roles,
+        data records, categories, subscriptions, and more. Take the reins and
+        tailor the Satellite Data Subscription Service to meet your unique needs
+        and priorities.
+      </p>
+      <p>
+        Effortlessly manage user roles, data records, categories, subscriptions,
+        and data selection. Ensure secure access, keep data up to date,
+        customize categories, curate subscriptions, and provide precise data for
+        your users. With the Admin Panel, maintain a streamlined, user-friendly
+        satellite data service with confidence and precision.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container pt-5 pb-5">
+  <div class="row">
+    <div class="col-12">
+      <h3>Add Data Records</h3>
+    </div>
+    <div class="col-12 pt-5 pb-5">
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="timestamp"
+              placeholder="Timestamp"
+              aria-label="Timestamp"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="region"
+              placeholder="Region"
+              aria-label="Region"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="latitude"
+              placeholder="Latitude"
+              aria-label="Latitude"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Longitude"
+              name="longitude"
+              aria-label="Longitude"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="altitude"
+              placeholder="Altitude"
+              aria-label="Altitude"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="satellite"
+              placeholder="Satellite"
+              aria-label="Satellite"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="description"
+              placeholder="Description"
+              aria-label="Description"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              name="image"
+              placeholder="Image Url"
+              aria-label="Image Url"
+            />
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-success">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Timestamp</th>
+              <th scope="col">Region</th>
+              <th scope="col">Latitude</th>
+              <th scope="col">Longitude</th>
+              <th scope="col">Altitude</th>
+              <th scope="col">Satellite</th>
+              <th scope="col">Description</th>
+              <th scope="col">Image</th>
+              <th scope="col">Delete row</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>21.33</td>
+              <td>Fin</td>
+              <td>jossain</td>
+              <td>jossain</td>
+              <td>jossain</td>
+              <td>@satelliitti</td>
+              <td>
+                Et man braid meditation, organic semiotics hella palo santo
+                laboris fugiat.
+              </td>
+              <td>kuva</td>
+              <td><button type="button" class="btn btn-danger">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container pt-5 pb-5">
+  <div class="row">
+    <div class="col-12">
+      <h3>Manage Subscription Options</h3>
+    </div>
+  </div>
+</div>
+<div class="container pt-5 pb-5">
+  <div class="row">
+    <div class="col-12">
+      <h3>Manage User Roles</h3>
     </div>
   </div>
 </div>
