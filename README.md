@@ -8,8 +8,8 @@ The features of the application include:
 * **Favorites List:** Users can add and remove satellite data records to their favorites list.
 * **Admin Panel:** Admin users can add and delete satellite data records. They can also manage which data records are available for each subscription.
 
-**Update 22.9.2023:**
-This repository contains the basic project structure and setup. You can test the project setup and run the provided commands, but please note that this is a minimal project template without specific functionality implemented yet.
+**Update 8.10.2023:**
+This repository contains the basic project structure and setup with some placeholder text. You can test the project setup and run the provided commands, but please note that this is a basic overview for the project without specific functionality implemented yet.
 
 ## Set up
 
